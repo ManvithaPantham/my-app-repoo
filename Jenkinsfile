@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Installing dependencies..."
-                bat "cd %WORKSPACE% && npm install"
+
             }
         }
 
@@ -37,4 +37,5 @@ pipeline {
     }
 
 }
+
 
