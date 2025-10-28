@@ -30,7 +30,10 @@ end
 ruby_block 'Copy app files' do
   block do
     require 'fileutils'
-    FileUtils.cp_r('E:/my-app-repo/app/.', 'C:/cd_app', remove_destination: true)
+    workspace_path = 'C:/ProgramData/Jenkins/.jenkins/workspace/cd_chef_pipelinee'
+    FileUtils.cp_r("#{workspace_path}/app/.", 'C:/cd_app', remove_destination: true)
+
+    
   end
 end
 
