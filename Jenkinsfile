@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/ManvithaPantham/my-app-repoo.git'
+                  git branch: 'main', url: 'https://github.com/ManvithaPantham/my-app-repoo.git'
+
             }
         }
 
@@ -32,3 +33,4 @@ pipeline {
         }
     }
 }
+
