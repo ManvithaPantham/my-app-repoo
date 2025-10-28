@@ -8,10 +8,12 @@ pipeline {
 
     stages {
         stage('Checkout Code') {
-            steps {
-                git credentialsId: 'my-git-cred', url: 'https://github.com/ManvithaPantham/my-app-repoo.git'
-            }
-        }
+    steps {
+        git url: 'https://github.com/ManvithaPantham/my-app-repoo.git', branch: 'main'
+              }
+           }
+
+       
 
         stage('Build') {
             steps {
@@ -39,4 +41,5 @@ pipeline {
         }
     }
 }
+
 
