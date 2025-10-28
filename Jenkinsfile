@@ -8,17 +8,8 @@ pipeline {
 
     stages {
         stage('Checkout Code') {
-    steps {
-        git url: 'https://github.com/ManvithaPantham/my-app-repoo.git', branch: 'main'
-              }
-           }
-
-       
-
-        stage('Build') {
             steps {
-                echo "Installing dependencies..."
-                bat "cd %WORKSPACE% && npm install"
+                git url: 'https://github.com/ManvithaPantham/my-app-repoo.git'
             }
         }
 
@@ -26,7 +17,7 @@ pipeline {
             steps {
                 bat """
                 cd %CHEF_REPO%
-                chef-client --local-mode --runlist \"recipe[${RECIPE}]\"
+                chef-client --local-mode --runlist 'recipe[%RECIPE%]'
                 """
             }
         }
@@ -41,5 +32,3 @@ pipeline {
         }
     }
 }
-
-
