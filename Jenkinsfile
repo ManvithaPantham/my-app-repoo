@@ -9,20 +9,23 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/ManvithaPantham/my-app-repoo.git'
+                git credentialsId: 'my-git-cred', url: 'https://github.com/ManvithaPantham/my-app-repo.git'
             }
         }
 
         stage('Build') {
             steps {
                 echo "Installing dependencies..."
-
+                bat "cd %WORKSPACE% && npm install"
             }
         }
 
         stage('Deploy with Chef') {
             steps {
-                bat "chef-client --local-mode --runlist 'recipe[${RECIPE}]'"
+                bat """
+                cd %CHEF_REPO%
+                chef-client --local-mode --runlist \"recipe[${RECIPE}]\"
+                """
             }
         }
     }
@@ -35,7 +38,4 @@ pipeline {
             echo 'Deployment failed!'
         }
     }
-
 }
-
-
