@@ -4,19 +4,23 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                echo '📦 Checking out source code...'
+                echo "📦 Checking out source code..."
                 git branch: 'main', url: 'https://github.com/ManvithaPantham/my-app-repoo.git'
             }
         }
 
         stage('Deploy with Chef') {
             steps {
-                echo '🍳 Running Chef deployment...'
+                echo "🍳 Running Chef deployment..."
+
+                // Show where Jenkins is running
+                bat 'echo Current directory: %CD%'
+
+                // Run Chef using cookbooks from the Jenkins workspace
                 bat '''
-                    echo Current directory: %CD%
-                    chef-client --local-mode --chef-license accept ^
-                      --config-option cookbooks_path=E:/my-app-repo/chef-cookbooks ^
-                      --runlist "recipe[my_app_deploy]"
+                chef-client --local-mode --chef-license accept ^
+                    --config-option cookbooks_path=%CD%\\chef-cookbooks ^
+                    --runlist "recipe[my_app_deploy]"
                 '''
             }
         }
@@ -24,10 +28,10 @@ pipeline {
 
     post {
         success {
-            echo '✅ Deployment successful!'
+            echo "✅ Deployment successful!"
         }
         failure {
-            echo '❌ Deployment failed! Check Chef logs for details.'
+            echo "❌ Deployment failed! Check Chef logs for details."
         }
     }
 }
