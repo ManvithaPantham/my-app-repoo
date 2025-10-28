@@ -1,0 +1,716 @@
+{
+  "name": "MANVITHA",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "26200",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows 11 Home Single Language",
+        "code_set": "1252",
+        "country_code": "1",
+        "csd_version": null,
+        "cs_name": "MANVITHA",
+        "current_time_zone": 330,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 2,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "install_date": "20250118000338.000000+330",
+        "large_system_cache": null,
+        "last_boot_up_time": "20251025132059.062529+330",
+        "local_date_time": "20251028194540.947000+330",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows 11 Home Single Language|C:\\WINDOWS|\\Device\\Harddisk0\\Partition3",
+        "number_of_licensed_users": null,
+        "number_of_processes": 262,
+        "number_of_users": 2,
+        "operating_system_sku": 100,
+        "organization": null,
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 768,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 1,
+        "registered_user": "Manvithapantham@outlook.com",
+        "serial_number": "00342-42647-75171-AAOEM",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "1048576",
+        "status": "OK",
+        "suite_mask": 784,
+        "system_device": "\\Device\\HarddiskVolume3",
+        "system_directory": "C:\\WINDOWS\\system32",
+        "system_drive": "C:",
+        "total_visible_memory_size": "16494456",
+        "version": "10.0.26200",
+        "windows_directory": "C:\\WINDOWS"
+      },
+      "name": "Microsoft Windows 11 Home Single Language",
+      "release": "10.0.26200",
+      "version": "10.0.26200  Build 26200",
+      "os": "WINNT",
+      "product_type": "Workstation",
+      "server_core": false,
+      "cs_info": {
+        "admin_password_status": 0,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "boot_status": [
+          0,
+          0,
+          0,
+          39,
+          22,
+          59,
+          0,
+          0,
+          1,
+          2
+        ],
+        "bootup_state": "Normal boot",
+        "caption": "MANVITHA",
+        "chassis_bootup_state": 3,
+        "chassis_sku_number": "SKU Number",
+        "current_time_zone": 330,
+        "daylight_in_effect": null,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "MANVITHA",
+        "domain": "WORKGROUP",
+        "domain_role": 0,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 0,
+        "hypervisor_present": true,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 0,
+        "last_load_info": null,
+        "manufacturer": "LENOVO",
+        "model": "83BG",
+        "name": "MANVITHA",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 12,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "Country - ",
+          "Modern Preload"
+        ],
+        "part_of_domain": false,
+        "pause_after_reset": "-1",
+        "pc_system_type": 2,
+        "pc_system_type_ex": 2,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 0,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "Manvithapantham@outlook.com",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_family": "IdeaPad Slim 5 16IAH8",
+        "system_sku_number": "LENOVO_MT_83BG_BU_idea_FM_IdeaPad Slim 5 16IAH8",
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "16890322944",
+        "user_name": "MANVITHA\\Manvi",
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64",
+      "system_type": "Mobile"
+    },
+    "memory": {
+      "swap": {
+        "total": "1048576kB",
+        "free": "953196kB"
+      },
+      "total": "16494456kB",
+      "free": "7171044kB"
+    },
+    "network": {
+      "interfaces": {
+        "0xf": {
+          "configuration": {
+            "ip_address": [
+              "192.168.29.224",
+              "fe80::31f9:48bb:3b07:b59f",
+              "2405:201:c010:39cd:c021:3234:647:8d41",
+              "2405:201:c010:39cd:ab51:4778:beff:b14"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000000] Intel(R) Wi-Fi 6 AX203",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "192.168.29.1",
+              "fe80::aada:cff:fe94:c1f"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Intel(R) Wi-Fi 6 AX203",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20251029180646.000000+330",
+            "dhcp_lease_obtained": "20251028180646.000000+330",
+            "dhcp_server": "192.168.29.1",
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "MANVITHA",
+            "dns_server_search_order": [
+              "192.168.29.1"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0,
+              16
+            ],
+            "igmp_level": null,
+            "index": 0,
+            "interface_index": 15,
+            "ip_connection_metric": 50,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64",
+              "128",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "C4:3D:1A:58:1E:7A",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "Netwtw14.",
+            "setting_id": "{D2CB2160-C461-4626-9D8B-3BC385750116}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000000] Intel(R) Wi-Fi 6 AX203",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "description": "Intel(R) Wi-Fi 6 AX203",
+            "device_id": "0",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{D2CB2160-C461-4626-9D8B-3BC385750116}",
+            "index": 0,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 15,
+            "last_error_code": null,
+            "mac_address": "C4:3D:1A:58:1E:7A",
+            "manufacturer": "Intel Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Intel(R) Wi-Fi 6 AX203",
+            "net_connection_id": "Wi-Fi",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "PCI\\VEN_8086&DEV_51F0&SUBSYS_02748086&REV_01\\3&11583659&1&A3",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Intel(R) Wi-Fi 6 AX203",
+            "service_name": "Netwtw14",
+            "speed": "144400000",
+            "status": null,
+            "status_info": null,
+            "system_name": "MANVITHA",
+            "time_of_last_reset": "20251025132059.062529+330"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.29.224": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.29.255",
+              "family": "inet"
+            },
+            "fe80::31f9:48bb:3b07:b59f": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "2405:201:c010:39cd:c021:3234:647:8d41": {
+              "prefixlen": "128",
+              "family": "inet6"
+            },
+            "2405:201:c010:39cd:ab51:4778:beff:b14": {
+              "prefixlen": "64",
+              "family": "inet6"
+            },
+            "C4:3D:1A:58:1E:7A": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.29.1": "a8:da:0c:94:0c:1f",
+            "192.168.29.80": "78:46:5c:64:5f:23",
+            "192.168.29.223": "60:e3:2b:31:72:f7",
+            "192.168.29.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "192.168.29.1",
+      "default_interface": "0xf"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "192.168.29.224",
+    "macaddress": "C4:3D:1A:58:1E:7A",
+    "ip6address": "fe80::31f9:48bb:3b07:b59f",
+    "os": "windows",
+    "os_version": "10.0.26200",
+    "platform": "windows",
+    "platform_version": "10.0.26200",
+    "platform_family": "windows",
+    "uptime_seconds": 282283,
+    "uptime": "3 days 06 hours 24 minutes 43 seconds",
+    "dmi": {
+
+    },
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "nodejs": {
+        "version": "22.14.0"
+      },
+      "powershell": {
+        "version": "5.1.26100.6899",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "10.0.26100.6899",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0",
+          "5.0",
+          "5.1.26100.6899"
+        ],
+        "remoting_protocol_version": "2.3"
+      },
+      "python": {
+        "version": "3.12.4",
+        "builddate": "Jun 6 2024, 19:30:16"
+      },
+      "ruby": {
+        "platform": "x64-mingw-ucrt",
+        "version": "3.4.7",
+        "release_date": "2025-10-08",
+        "target": "x64-w64-mingw32",
+        "target_cpu": "x64",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "x64-w64-mingw32",
+        "host_cpu": "x64",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/Ruby34-x64/bin",
+        "ruby_bin": "C:/Ruby34-x64/bin/ruby",
+        "gems_dir": "C:/Ruby34-x64/lib/ruby/gems/3.4.0",
+        "gem_bin": "C:/Ruby34-x64/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "15.0.300",
+        "chef_root": "C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "15.0.35",
+        "ohai_root": "C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/ohai-15.0.35/lib/ohai"
+      }
+    },
+    "cloud": null,
+    "command": {
+
+    },
+    "cpu": {
+      "0": {
+        "cores": 8,
+        "vendor_id": "GenuineIntel",
+        "family": "205",
+        "model": "",
+        "stepping": "3",
+        "physical_id": "CPU0",
+        "model_name": "12th Gen Intel(R) Core(TM) i5-12450H",
+        "description": "Intel64 Family 6 Model 154 Stepping 3",
+        "mhz": "2000",
+        "cache_size": "7168 KB"
+      },
+      "total": 12,
+      "cores": 8,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 375429001,
+        "kb_available": 245968809,
+        "kb_used": 129460192,
+        "percent_used": 34,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": "windows-ssd"
+      },
+      "D:": {
+        "kb_size": 323195236,
+        "kb_available": 323015778,
+        "kb_used": 179458,
+        "percent_used": 0,
+        "mount": "D:",
+        "fs_type": "ntfs",
+        "volume_name": "new volume"
+      },
+      "E:": {
+        "kb_size": 323195236,
+        "kb_available": 323046567,
+        "kb_used": 148669,
+        "percent_used": 0,
+        "mount": "E:",
+        "fs_type": "ntfs",
+        "volume_name": "new volume"
+      }
+    },
+    "hostname": "MANVITHA",
+    "machinename": "MANVITHA",
+    "fqdn": "MANVITHA",
+    "domain": null,
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1761660968.89753,
+    "packages": {
+      "Git": {
+        "version": "2.51.1",
+        "publisher": "The Git Development Community",
+        "installdate": "20251024"
+      },
+      "Microsoft Office Home and Student 2021 - en-us": {
+        "version": "16.0.19231.20216",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft OneDrive": {
+        "version": "25.189.0928.0002",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft OneNote - en-us": {
+        "version": "16.0.19231.20216",
+        "publisher": "Microsoft Corporation"
+      },
+      "WinRAR 6.24 (64-bit)": {
+        "version": "6.24.0",
+        "publisher": "win.rar GmbH"
+      },
+      "Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.29.30156": {
+        "version": "14.29.30156",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250526"
+      },
+      "Microsoft GameInput": {
+        "version": "10.1.26100.6154",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20251017"
+      },
+      "MySQL Shell": {
+        "version": "8.0.42",
+        "publisher": "Oracle Corporation",
+        "installdate": "20250526"
+      },
+      "Java(TM) SE Development Kit 21.0.9 (64-bit)": {
+        "version": "21.0.9.0",
+        "publisher": "Oracle Corporation",
+        "installdate": "20251024"
+      },
+      "Python 3.12.4 Core Interpreter (64-bit)": {
+        "version": "3.12.4150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240624"
+      },
+      "Python 3.12.4 Standard Library (64-bit)": {
+        "version": "3.12.4150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240624"
+      },
+      "Python 3.12.4 Tcl/Tk Support (64-bit)": {
+        "version": "3.12.4150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240624"
+      },
+      "Python 3.12.4 Executables (64-bit)": {
+        "version": "3.12.4150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240624"
+      },
+      "Chef Workstation v0.4.2": {
+        "version": "0.4.2.1",
+        "publisher": "\"Chef Software, Inc. <maintainers@chef.io>\"",
+        "installdate": "20251027"
+      },
+      "Python 3.12.4 Development Libraries (64-bit)": {
+        "version": "3.12.4150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240624"
+      },
+      "MongoDB 8.0.9 2008R2Plus SSL (64 bit)": {
+        "version": "8.0.9",
+        "publisher": "MongoDB Inc.",
+        "installdate": "20250530"
+      },
+      "Office 16 Click-to-Run Licensing Component": {
+        "version": "16.0.19029.20208",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250824"
+      },
+      "Office 16 Click-to-Run Extensibility Component": {
+        "version": "16.0.19231.20216",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20251024"
+      },
+      "MySQL Server 8.0": {
+        "version": "8.0.42",
+        "publisher": "Oracle Corporation",
+        "installdate": "20250526"
+      },
+      "Microsoft Teams Meeting Add-in for Microsoft Office": {
+        "version": "1.24.14501",
+        "publisher": "Microsoft",
+        "installdate": "20240810"
+      },
+      "Java(TM) SE Development Kit 22.0.2 (64-bit)": {
+        "version": "22.0.2.0",
+        "publisher": "Oracle Corporation",
+        "installdate": "20240825"
+      },
+      "Python 3.12.4 Test Suite (64-bit)": {
+        "version": "3.12.4150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240624"
+      },
+      "Python 3.12.4 Documentation (64-bit)": {
+        "version": "3.12.4150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240624"
+      },
+      "Lenovo Voice Service": {
+        "version": "3.0.26.0",
+        "publisher": "Lenovo Group Ltd.",
+        "installdate": "20230929"
+      },
+      "Microsoft Update Health Tools": {
+        "version": "5.72.0.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20231118"
+      },
+      "Microsoft Visual C++ 2019 X64 Additional Runtime - 14.29.30156": {
+        "version": "14.29.30156",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20250526"
+      },
+      "Jenkins 2.528.1": {
+        "version": "2.255.5281",
+        "publisher": "Jenkins Project",
+        "installdate": "20251024"
+      },
+      "Node.js": {
+        "version": "22.14.0",
+        "publisher": "Node.js Foundation",
+        "installdate": "20250407"
+      },
+      "MySQL Workbench 8.0 CE": {
+        "version": "8.0.42",
+        "publisher": "Oracle Corporation",
+        "installdate": "20250526"
+      },
+      "Python 3.12.4 Add to Path (64-bit)": {
+        "version": "3.12.4150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240624"
+      },
+      "Python 3.12.4 pip Bootstrap (64-bit)": {
+        "version": "3.12.4150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240624"
+      },
+      "Google Chrome": {
+        "version": "141.0.7390.123",
+        "publisher": "Google LLC",
+        "installdate": "20251025"
+      },
+      "Microsoft Edge": {
+        "version": "141.0.3537.99",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20251025"
+      },
+      "Microsoft Edge WebView2 Runtime": {
+        "version": "141.0.3537.99",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20251025"
+      },
+      "Lenovo Vantage Service": {
+        "version": "4.3.96.0",
+        "publisher": "Lenovo Group Ltd.",
+        "installdate": "20250918"
+      },
+      "Lenovo Smart Appearance Components": {
+        "version": "2.3.17.0",
+        "publisher": "Lenovo",
+        "installdate": "20230718"
+      },
+      "Python Launcher": {
+        "version": "3.12.4150.0",
+        "publisher": "Python Software Foundation",
+        "installdate": "20240624"
+      },
+      "Lenovo Now": {
+        "version": "4.4.1.1",
+        "publisher": "Lenovo",
+        "installdate": "20251016"
+      },
+      "Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.29.30156": {
+        "version": "14.29.30156.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "MySQL Documents": {
+        "version": "8.0.42",
+        "publisher": "Oracle Corporation",
+        "installdate": "20250526"
+      },
+      "MySQL Installer": {
+        "version": "1.6.15.0",
+        "publisher": "Oracle Corporation",
+        "installdate": "20250609"
+      }
+    },
+    "root_group": "Administrators",
+    "shard_seed": 165366863,
+    "time": {
+      "timezone": "India Standard Time"
+    },
+    "system_enclosure": {
+      "manufacturer": "LENOVO",
+      "serialnumber": "MP2KAR9V"
+    },
+    "chef_guid": "c863273d-1b02-414a-8e41-34d28d068431",
+    "name": "MANVITHA",
+    "chef_environment": "_default",
+    "recipes": [
+      "my_app_deploy",
+      "my_app_deploy::default"
+    ],
+    "expanded_run_list": [
+      "my_app_deploy::default"
+    ],
+    "roles": [
+
+    ]
+  },
+  "run_list": [
+    "recipe[my_app_deploy]"
+  ]
+}
