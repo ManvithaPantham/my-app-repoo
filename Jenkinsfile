@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo "📦 Checking out source code..."
-                git credentialsId: 'my-git-cred', url: 'https://github.com/ManvithaPantham/my-app-repoo.git'
+                 git branch: 'main', url:'https://github.com/ManvithaPantham/my-app-repoo.git'
             }
         }
 
@@ -37,4 +37,5 @@ pipeline {
         }
     }
 }
+
 
