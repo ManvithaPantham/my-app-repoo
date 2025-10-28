@@ -13,17 +13,16 @@ pipeline {
             steps {
                 echo "🍳 Running Chef deployment..."
 
-                // Show where Jenkins is running
+                // Display the current working directory
                 bat 'echo Current directory: %CD%'
 
-                // Run Chef using cookbooks from the Jenkins workspace
+                // Run Chef using relative cookbook path
                 bat '''
-cd C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\cd_chef_pipelinee
-chef-client --local-mode --chef-license accept ^
-  --config-option cookbooks_path=C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\cd_chef_pipelinee\\chef-cookbooks ^
-  --runlist "recipe[my_app_deploy]"
-'''
-
+                echo Running Chef from: %CD%
+                chef-client --local-mode --chef-license accept ^
+                  --config-option "cookbooks_path=chef-cookbooks" ^
+                  --runlist "recipe[my_app_deploy]"
+                '''
             }
         }
     }
