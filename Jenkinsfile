@@ -18,12 +18,12 @@ pipeline {
         stage('Deploy with Chef') {
             steps {
                 echo "🍳 Running Chef deployment..."
-                bat """
-                cd E:\\my-app-repo
-                chef-client --local-mode --chef-license accept ^
-                    --config-option cookbooks_path=%COOKBOOKS_PATH% ^
-                    --runlist 'recipe[%RECIPE%]'
-                """
+                bat '''
+chef-client --local-mode --chef-license accept ^
+  --config-option cookbooks_path=E:\\my-app-repo\\chef-cookbooks ^
+  --runlist "recipe[my_app_deploy]"
+'''
+
             }
         }
     }
@@ -37,5 +37,6 @@ pipeline {
         }
     }
 }
+
 
 
