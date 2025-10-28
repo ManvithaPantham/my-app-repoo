@@ -2,15 +2,14 @@ pipeline {
     agent any
 
     environment {
-        CHEF_REPO = "C:/chef-cookbooks"
+        CHEF_REPO = "E:/my-app-repo"
         RECIPE = "my_app_deploy"
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                  git branch: 'main', url: 'https://github.com/ManvithaPantham/my-app-repoo.git'
-
+                git branch: 'main', url: 'https://github.com/ManvithaPantham/my-app-repoo.git'
             }
         }
 
@@ -18,7 +17,7 @@ pipeline {
             steps {
                 bat """
                 cd %CHEF_REPO%
-                chef-client --local-mode --runlist 'recipe[%RECIPE%]'
+                chef-client --local-mode --chef-license accept --runlist 'recipe[%RECIPE%]'
                 """
             }
         }
@@ -33,4 +32,3 @@ pipeline {
         }
     }
 }
-
