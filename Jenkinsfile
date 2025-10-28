@@ -18,12 +18,12 @@ pipeline {
 
                 // Run Chef using cookbooks from the Jenkins workspace
                 bat '''
-E:
-cd E:\\my-app-repoo
+cd C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\cd_chef_pipelinee
 chef-client --local-mode --chef-license accept ^
-  --config-option cookbooks_path=E:\\my-app-repoo\\chef-cookbooks ^
+  --config-option cookbooks_path=C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\cd_chef_pipelinee\\chef-cookbooks ^
   --runlist "recipe[my_app_deploy]"
 '''
+
             }
         }
     }
