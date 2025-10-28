@@ -9,17 +9,6 @@ pipeline {
             }
         }
 
-        pipeline {
-    agent any
-
-    stages {
-        stage('Checkout Code') {
-            steps {
-                echo "📦 Checking out source code..."
-                git branch: 'main', url: 'https://github.com/ManvithaPantham/my-app-repoo.git'
-            }
-        }
-
         stage('Deploy with Chef') {
             steps {
                 echo "🍳 Running Chef deployment..."
@@ -35,7 +24,6 @@ chef-client --local-mode --chef-license accept ^
   --config-option cookbooks_path=E:\\my-app-repoo\\chef-cookbooks ^
   --runlist "recipe[my_app_deploy]"
 '''
-
             }
         }
     }
